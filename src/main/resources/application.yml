@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+      username: root
+      password: root
+      url: jdbc:mysql://localhost:3306/weibo?serverTimeZone=Asia/Shanghai&allowMultiQueries=true&useUnicode=true&characterEncoding=utf8mb4&useSSL=false&allowMultiQueries=true&allowPublicKeyRetrieval=true
+  jpa:
+    show-sql: true
+server:
+  servlet:
+    context-path: /comment
